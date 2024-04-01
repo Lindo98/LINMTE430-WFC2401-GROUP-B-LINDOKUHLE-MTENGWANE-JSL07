@@ -1,4 +1,10 @@
-// Assuming you have already declared 'modal', 'cardForm', 'certificateContent', and 'closeModal' variables elsewhere in your code.
+document.addEventListener('DOMContentLoaded', function () {
+    const cardForm = document.getElementById('cardForm');
+    const modal = document.getElementById('modal');
+    const certificateContent = document.getElementById('certificateContent');
+    const closeModal = document.querySelector('.close');
+
+    // Assuming you have already declared 'modal', 'cardForm', 'certificateContent', and 'closeModal' variables elsewhere in your code.
 
 // Hide the modal initially
 modal.style.display = 'none';
@@ -41,5 +47,4 @@ cardForm.addEventListener('submit', function (e) {
 closeModal.addEventListener('click', function () {
   modal.style.display = 'none';
 });
-
-  
+})
