@@ -91,7 +91,7 @@ button:hover {
   margin: 20px 0;
 }
 
-h1, .modal-content h2, .modal-content p {
+h1, .modal-content h2, .modal-content p, .modal-content h3, .modal-content h4 {
   color: #5d5f5e;
 }
 
@@ -112,5 +112,14 @@ button {
 
 button:hover {
   background-color: #5d5f5e;
+}
+
+img {
+  width: 50%
+}
+
+p {
+  font-size: small;
+  font-weight: lighter;
 }
 

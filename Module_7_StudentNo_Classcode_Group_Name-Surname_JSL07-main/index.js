@@ -29,9 +29,14 @@ cardForm.addEventListener('submit', function (e) {
 
   // Generate certificate content dynamically
   certificateContent.innerHTML = `
+    <h1>Certificate of achievement<h1>
+    <p>This is to certify that<p>
     <h3>${studentName}</h3>
+    <p>has almost completed the</p>
+    <h4>Course: ${courseName} </h4>
+    <p>with legendary perservarence and world-class bad-assery for never giving up🏆</p>
+    <img src="logo.png" alt=""> 
     <p>${personalMessage}</p>
-    <p>Course: ${courseName}</p>
   `;
 
   // Display the modal
