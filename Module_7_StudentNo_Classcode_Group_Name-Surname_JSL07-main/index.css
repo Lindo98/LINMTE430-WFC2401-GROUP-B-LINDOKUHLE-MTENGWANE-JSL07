@@ -97,6 +97,7 @@ h1, .modal-content h2, .modal-content p, .modal-content h3, .modal-content h4 {
 
 .close {
   color: #dc7f5f;
+  cursor: pointer;
 }
 
 /* Adding a fancy border to the certificate content */
@@ -119,7 +120,6 @@ img {
 }
 
 p {
-  font-size: small;
   font-weight: lighter;
 }
 
